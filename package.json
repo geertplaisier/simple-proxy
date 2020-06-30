@@ -1,0 +1,15 @@
+{
+  "name": "simple-proxy",
+  "version": "1.0.0",
+  "description": "Simple proxy for connection to external API locally",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
