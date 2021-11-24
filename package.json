@@ -6,9 +6,15 @@
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "npm-watch": "^0.11.0"
+  },
+  "watch": {
+    "start": "src/*.js"
+  },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "watch": "npm-watch"
   },
   "author": "",
   "license": "ISC"
