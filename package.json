@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple proxy for connection to external API locally",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "http-proxy-middleware": "^1.0.4"
   },
   "devDependencies": {
